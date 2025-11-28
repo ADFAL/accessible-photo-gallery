@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+figure {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #ccc;
+    padding: 5px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+figure:focus {
+    outline: 3px solid #007acc;
+}
